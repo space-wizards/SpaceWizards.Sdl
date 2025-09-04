@@ -1,4 +1,4 @@
-# SpaceWizards.Sdl
+# SpaceWizards.Sdl [![NuGet link](https://img.shields.io/nuget/v/SpaceWizards.Sdl)](https://www.nuget.org/packages/SpaceWizards.Sdl)
 
 This is effectively [`flibitijibibo/SDL3-CS`](https://github.com/flibitijibibo/SDL3-CS) with some fixes,
 packaged as a NuGet package for easier consumption.
