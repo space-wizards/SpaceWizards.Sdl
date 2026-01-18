@@ -2,6 +2,10 @@
 
 ## Master
 
+## 1.1.1
+
+Updated dependency for `Robust.Natives.Sdl3`.
+
 ## 1.1.0
 
 Updated bindings to [latest SDL3-CS](https://github.com/flibitijibibo/SDL3-CS/commit/9bdcf5de2af86bf764a9ca3c42821c1a099ef150), targeting SDL 3.4.0.
