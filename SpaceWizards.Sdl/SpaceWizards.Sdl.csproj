@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <IncludeSymbols>true</IncludeSymbols>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
 
     <!-- NuGet stuff. -->
     <PackageId>SpaceWizards.Sdl</PackageId>
