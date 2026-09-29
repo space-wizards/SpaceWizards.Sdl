@@ -10,15 +10,15 @@ public static partial class SDL
 
     [LibraryImport(nativeLibName)]
     [UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
-    public static unsafe partial void SDL_SetLogOutputFunction(delegate* unmanaged[Cdecl]<void*, int, SDL_LogPriority, byte*, void> callback, void* userdata);
+    public static unsafe partial void SDL_SetLogOutputFunction(delegate* unmanaged[Cdecl] <void*, int, SDL_LogPriority, byte*, void> callback, void* userdata);
 
     [LibraryImport(nativeLibName)]
     [UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
-    public static unsafe partial SDLBool SDL_AddEventWatch(delegate* unmanaged[Cdecl]<void*, SDL_Event*, byte> filter, void* userdata);
+    public static unsafe partial SDLBool SDL_AddEventWatch(delegate* unmanaged[Cdecl] <void*, SDL_Event*, byte> filter, void* userdata);
 
     [LibraryImport(nativeLibName)]
     [UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
-    public static unsafe partial void SDL_RemoveEventWatch(delegate* unmanaged[Cdecl]<void*, SDL_Event*, byte> filter, void* userdata);
+    public static unsafe partial void SDL_RemoveEventWatch(delegate* unmanaged[Cdecl] <void*, SDL_Event*, byte> filter, void* userdata);
 
     [LibraryImport(nativeLibName, StringMarshalling = StringMarshalling.Utf8)]
     [UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
