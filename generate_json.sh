@@ -13,5 +13,5 @@ cat > tmp.c <<- EOM
 #include <SDL3/SDL_main.h>
 EOM
 
-LD_LIBRARY_PATH="$HOME/sdl3-dev/lib" $c2ffi_executable tmp.c -o GenerateBindings/assets/ffi.json
+$c2ffi_executable tmp.c -o GenerateBindings/assets/ffi.json
 rm tmp.c
