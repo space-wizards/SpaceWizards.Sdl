@@ -2,6 +2,10 @@
 
 ## Master
 
+## 1.1.2
+
+Regenerated bindings against SDL 3.4.18 and updated dependency for `Robust.Natives.Sdl3`.
+
 ## 1.1.1
 
 Updated dependency for `Robust.Natives.Sdl3`.
